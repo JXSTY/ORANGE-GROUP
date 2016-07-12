@@ -1,0 +1,204 @@
+.p-x-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.p-r-0 {
+  padding-right: 0px;
+}
+
+.p-l-0 {
+  padding-left: 0px;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #24ABE8;
+  border-color: #24ABE8;
+}
+.btn-default:focus, .btn-default.focus {
+  color: #fff;
+  background-color: #158ec4;
+  border-color: #0d5c7f;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #158ec4;
+  border-color: #1487bb;
+}
+.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+  color: #fff;
+  background-color: #158ec4;
+  border-color: #1487bb;
+}
+.btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #1176a4;
+  border-color: #0d5c7f;
+}
+.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+  background-image: none;
+}
+.btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus {
+  background-color: #24ABE8;
+  border-color: #24ABE8;
+}
+.btn-default .badge {
+  color: #24ABE8;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+}
+
+.col-5 {
+  float: left;
+  width: 20%;
+}
+.col-5:before, .col-5:after {
+  content: " ";
+  display: table;
+}
+.col-5:after {
+  clear: both;
+}
+
+.container {
+  width: 1170px;
+}
+
+.high-light {
+  cursor: pointer;
+  color: #24ABE8;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+header {
+  z-index: 999;
+  height: 70px;
+  background-color: #262626;
+  padding: 10px 0px;
+}
+header a {
+  color: #fff;
+}
+header .navbar-header {
+  display: none;
+}
+header .navbar-header .navbar-brand {
+  padding: 0px;
+  padding-top: 2.5px;
+}
+header .navbar-header .navbar-brand .logo {
+  width: 66px;
+  height: 45px;
+  background-image: url("../images/global/logo-b-2x.png");
+  background-size: cover;
+}
+header.fixed {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+header.fixed a {
+  color: #262626;
+}
+header.fixed .navbar-header {
+  display: block;
+}
+
+footer {
+  height: 140px;
+  color: #fff;
+  background-color: #262626;
+}
+
+body.index .level1 {
+  height: 550px;
+}
+body.index .level2 {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+body.index .level3 {
+  width: 100%;
+  height: 750px;
+  background: url("../images/page/index/level3-bg-2x.jpg");
+  background-position: center;
+}
+body.index .level4 {
+  width: 100%;
+  padding-top: 60px;
+}
+body.index .level4 .top {
+  margin-bottom: 100px;
+}
+body.index .level4 .bottom {
+  padding: 62.5px 0px;
+  height: 179px;
+  background: url("../images/page/index/level4-bg-bottom.jpg");
+  background-repeat: repeat-x;
+}
+body.index .level4 .bottom .icon-works {
+  margin-top: 13.7px;
+  float: left;
+  width: 38px;
+  height: 35px;
+  background-image: url("../images/page/index/icon-moreworks.png");
+  background-size: cover;
+}
+body.index .level4 .bottom a {
+  color: #fff;
+  font-size: 20px;
+}
+body.index .level4 .bottom a.left {
+  cursor: pointer;
+  margin-top: 13.7px;
+  float: left;
+  line-height: 35px;
+  margin-left: 30px;
+}
+body.index .level4 .bottom a.right {
+  cursor: pointer;
+  float: right;
+  padding: 11px 50px;
+  border: 2px solid #fff;
+}
+body.index .level5 {
+  height: 355px;
+}
+body.index .level5 .inner h1 {
+  font-weight: 100;
+  text-align: center;
+}
+body.index .level6 {
+  max-width: 1920px;
+  margin: auto;
+}
+body.index .level6:before, body.index .level6:after {
+  content: " ";
+  display: table;
+}
+body.index .level6:after {
+  clear: both;
+}
+body.index .level7 {
+  height: 640px;
+}
+body.index .level8 {
+  height: 378px;
+}

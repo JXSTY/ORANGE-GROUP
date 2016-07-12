@@ -1,0 +1,40 @@
+header {
+  z-index: 999;
+  height: 70px;
+  background-color:#262626;
+  padding:10px 0px;
+  a{color:#fff;}
+  .navbar-header{
+    display: none;
+    .navbar-brand{
+      padding: 0px;
+      padding-top: 2.5px;
+      .logo{
+        width:66px;
+        height: 45px;
+        background-image: url('../images/global/logo-b-2x.png');
+        background-size: cover;
+      }
+    }
+  }
+  &.fixed{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color:#fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    a{color:#262626;}
+    .navbar-header{
+      display: block;
+    }
+  }
+  //@media (min-width: $screen-sm-min) {
+  //  //background-color: #00b3ee;
+  //}
+  //@media (min-width: $screen-md-min) {
+  //  //background-color: red;
+  //}
+  //@media (min-width: $screen-lg-min) {
+  //  //background-color: green;
+  //}
+}

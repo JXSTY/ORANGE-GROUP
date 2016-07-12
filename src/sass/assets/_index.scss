@@ -1,0 +1,76 @@
+body {
+  &.index {
+    .level1 {
+      height: 550px;
+    }
+    .level2 {
+      padding-top: 60px;
+      padding-bottom: 100px;
+    }
+    .level3 {
+      width: 100%;
+      height: 750px;
+      background: url('../images/page/index/level3-bg-2x.jpg');
+      background-position: center;
+    }
+    .level4 {
+      width: 100%;
+      padding-top: 60px;
+      //background-position: center;
+      .top {
+        margin-bottom: 100px;
+      }
+      .bottom {
+        padding: 62.5px 0px;
+        height: 179px;
+        background: url('../images/page/index/level4-bg-bottom.jpg');
+        background-repeat: repeat-x;
+        .icon-works{
+          margin-top: 13.7px;
+          float: left;
+          width:38px;
+          height:35px;
+          background-image:url("../images/page/index/icon-moreworks.png");
+          background-size:cover;
+        }
+        a{
+          color: #fff;
+          font-size: 20px;
+          &.left{
+            cursor: pointer;
+            margin-top: 13.7px;
+            float: left;
+            line-height: 35px;
+            margin-left:30px;
+          }
+          &.right{
+            cursor: pointer;
+            float: right;
+            padding:11px 50px;
+            border:2px solid #fff;
+          }
+        }
+      }
+    }
+    .level5 {
+      height: 355px;
+      .inner{
+        h1{
+          font-weight: 100;
+          text-align: center;
+        }
+      }
+    }
+    .level6 {
+      max-width: 1920px;
+      margin: auto;
+      @include clearfix;
+    }
+    .level7{
+      height: 640px;
+    }
+    .level8{
+      height:378px;
+    }
+  }
+}

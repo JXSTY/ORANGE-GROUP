@@ -1,0 +1,11 @@
+include ../partials/header.jade
+include ../partials/index/carousel.jade
+include ../partials/index/main.jade
+include ../partials/footer.jade
+extends ../layout
+
+block content
+  +carousel()
+  +header()
+  +main()
+  +footer()

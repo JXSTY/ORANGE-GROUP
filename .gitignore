@@ -1,0 +1,10 @@
+target
+node_modules
+.idea
+.DS_Store
+.classpath
+.sass-cache
+.project
+.settings
+*.iml
+application.local.properties

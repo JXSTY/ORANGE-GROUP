@@ -1,0 +1,102 @@
+.nb-book {
+  position: relative; }
+
+.nb-book-pages {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.nb-book-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; }
+
+.nb-book-page-flip {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  perspective: 2000px;
+  -webkit-perspective: 2000px;
+  transform-origin: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.nb-book-page-flip .nb-book-page-surface {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  perspective: 2000px;
+  -webkit-perspective: 2000px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.nb-book-page-flip .nb-book-page-surface .nb-book-page {
+  width: 200%; }
+
+.nb-book-next {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+.nb-book-next .nb-book-page-flip {
+  position: absolute;
+  right: 0; }
+.nb-book-next .nb-book-page-flip.anim {
+  transition: transform linear .5s; }
+.nb-book-next .nb-book-page-flip .nb-book-page-surface.front {
+  right: 0; }
+.nb-book-next .nb-book-page-flip .nb-book-page-surface.back {
+  left: 0;
+  transform: rotateY(180deg);
+}
+.nb-book-next .nb-book-page-flip .nb-book-page-surface.back .nb-book-page {
+  left: 0; }
+.nb-book-next .nb-book-page-flip .nb-book-page-surface .nb-book-page {
+  width: 200%;
+  left: -100%; }
+.nb-book-next .nb-book-page-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+.nb-book-next .nb-book-page-static {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+.nb-book-next .nb-book-page-static .nb-book-page {
+  width: 200%; }
+.nb-book-next .nb-book-page-static .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0; }
+.nb-book-next .nb-book-page-static .nb-book-page-left {
+  position: absolute;
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  left: 0; }
+.nb-book-next .nb-book-page-static .nb-book-page-left .nb-book-page {
+  left: 0; }
+.nb-book-next .nb-book-page-static .nb-book-page-right {
+  position: absolute;
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  right: 0; }
+.nb-book-next .nb-book-page-static .nb-book-page-right .nb-book-page {
+  left: -100%; }
+.nb-book-next .nb-book-page-hammer {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+.nb-book-next .nb-book-page-hammer .nb-book-page-wrapper {
+  position: absolute;
+  width: 50%;
+  height: 100%; }
+.nb-book-next .nb-book-page-hammer .nb-book-page-wrapper .nb-book-page {
+  width: 200%; }
+
+/*# sourceMappingURL=maps/style.css.map */

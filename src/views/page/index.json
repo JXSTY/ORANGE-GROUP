@@ -1,0 +1,6 @@
+{
+  "styleList":["./css/style.css"],
+  "bodyClass":"index",
+  "scriptList":["./js/page/index/index.js"],
+  "index":1
+}

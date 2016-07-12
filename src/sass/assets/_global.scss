@@ -1,0 +1,213 @@
+//default style
+html{}
+a{}
+ul{list-style: none;}
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+}
+// Grid system
+// --------------------------------------------------
+.col-5{
+  float: left;
+  width:20%;
+  @include clearfix;
+}
+.container {
+  //@include container-fixed;
+  width: 1170px;
+  //@media (min-width: $screen-sm-min) {
+  //  width: $container-sm;
+  //}
+  //@media (min-width: $screen-md-min) {
+  //  width: $container-md;
+  //}
+  //@media (min-width: $screen-lg-min) {
+  //  width: $container-lg;
+  //}
+}
+// Footer
+// --------------------------------------------------
+footer {
+  //margin-bottom: 42px;
+  //.container{
+  //  text-align: center;
+  //}
+  @media only screen and (max-width: 768px) {
+  }
+}
+
+// Modal
+// --------------------------------------------------
+//.modal{
+//  .modal-dialog{
+//    margin-top: 170px;
+//  }
+//  .modal-content {
+//    position: relative;
+//    //background-color: $modal-content-bg;
+//    border: 1px solid $modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
+//    border: 1px solid $modal-content-border-color;
+//    border-radius: 0px;
+//    @include box-shadow(0 3px 9px rgba(0,0,0,.5));
+//    background-clip: padding-box;
+//    outline: 0;
+//    height: 473px;
+//    background-color: black;
+//    .modal-body{
+//      width: 100%;
+//     height: 473px;
+//    }
+//  }
+//}
+//.modal-header {
+//  border-bottom: 0px solid $modal-header-border-color;
+//  z-index: 21;
+//  position: absolute;
+//  top: -15px;
+//  right: -15px;
+//  border-radius: 50%;
+//  width: 30px;
+//  background-color: #FFF;
+//  height: 30px;
+//  padding: 5px 8px;
+//  @include clearfix;
+//}
+//.modal-body {
+//  position: absolute;
+//  top:0px;
+//  padding: 0px;
+//}
+//// Scale up the modal
+//@media (min-width: $screen-sm-min) {
+//  // Automatically set modal's width for larger viewports
+//  .modal-dialog {
+//    width: $modal-md;
+//    margin: 30px auto;
+//  }
+//  .modal-content {
+//    @include box-shadow(0 5px 15px rgba(0,0,0,.5));
+//  }
+//  // Modal sizes
+//  .modal-sm { width: $modal-sm; }
+//}
+//@media (min-width: $screen-md-min) {
+//  .modal-lg { width: $modal-lg; }
+//}
+//carousel
+// --------------------------------------------------
+//login system
+// --------------------------------------------------
+//.wrap{
+//  width: 394px;
+//  /* height: 580px; */
+//  margin: auto;
+//  margin-top: 145px;
+//  margin-bottom: 145px;
+//  form{
+//    .title{
+//      margin-bottom: 31px;
+//      .top{
+//        img{
+//          width: 100%;
+//        }
+//      }
+//      .bottom{
+//        margin-top: 26px;
+//        font-size: 24px;
+//        color: #4A4A4A;
+//      }
+//    }
+//    .form-group{
+//      height: 65px;
+//      position: relative;
+//      //background-color: red;
+//      label{
+//        display: block;
+//        margin-bottom: 5px;
+//      }
+//      input {
+//        border-radius: 2px;
+//      }
+//      .msg-error {
+//        color: red;
+//        position: absolute;
+//        width: inherit;
+//        bottom: -19px;
+//        right: 15px;
+//        text-align: right;
+//      }
+//      &.captcha-part{
+//        .top{}
+//        .bottom{
+//          height:34px;
+//          .left{}
+//          .right{
+//            img{
+//              height: 34px;
+//              width: 100%;
+//            }
+//          }
+//        }
+//      }
+//
+//      @mixin btn-radius-group($bColor,$leftRadius,$rightRadius,$boolean){
+//        border: 1px solid $bColor;
+//        border-bottom-left-radius:$leftRadius;
+//        border-top-left-radius:$leftRadius;
+//        border-bottom-right-radius:$rightRadius;
+//        border-top-right-radius:$rightRadius;
+//        @if $boolean{
+//          border-left:0px;
+//        }
+//        @else{
+//          border-right:0px;
+//        }
+//      }
+//
+//      &.verify-part{
+//        >.left{
+//          input{
+//            @include btn-radius-group($bColor:#d8d8d8,$leftRadius:2px,$rightRadius:0px,$boolean:false);
+//          }
+//        }
+//        >.right{
+//          button{
+//            width: 100%;
+//            @include btn-radius-group($bColor:#24ABE8,$leftRadius:0px,$rightRadius:2px,$boolean:true);
+//            background-color: #24ABE8;
+//            color: #fff;
+//          }
+//        }
+//      }
+//    }
+//    >.btn-wrap{
+//      >.btn{
+//        width: 100%;
+//        padding: 5.5px 0px;
+//        font-size: 15px;
+//        line-height: 1.42857;
+//        border-radius: 2px;
+//      }
+//    }
+//  }
+//}
+//single style
+// --------------------------------------------------
+//.must {
+//  &:after {
+//    content: "*";
+//    color: red;
+//    position: absolute;
+//  }
+//}
+.high-light{
+  cursor: pointer;
+  color: #24ABE8;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
