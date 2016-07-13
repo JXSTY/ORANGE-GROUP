@@ -30,7 +30,7 @@ body {
           float: left;
           width:38px;
           height:35px;
-          background-image:url("../images/page/index/icon-moreworks.png");
+          background-image:url("../images/page/index/icon/icon-moreworks.png");
           background-size:cover;
         }
         a{
@@ -54,23 +54,64 @@ body {
     }
     .level5 {
       height: 355px;
-      .inner{
-        h1{
-          font-weight: 100;
-          text-align: center;
+      .item{
+        height:355px;
+        padding-left: 0px;
+        padding-right: 0px;
+        .inner{
+          padding-top: 138px;
+          padding-bottom: 137px;
+          @include clearfix;
+          .left{
+            //margin-top: 22.25px;
+            background-size:cover;
+            float:left;
+            width: 58.5px;
+            height: 54.5px;
+          }
+          .right{
+            float:left;
+            .title{
+              margin-top: 0px;
+              margin-bottom: 0px;
+              font-weight: 100;
+              text-align: center;
+            }
+          }
+
         }
       }
+
     }
     .level6 {
+      padding-top: 60px;
+      padding-bottom: 100px;
       max-width: 1920px;
       margin: auto;
       @include clearfix;
     }
     .level7{
-      height: 640px;
+      //height: 640px;
+      padding-bottom:100px ;
     }
     .level8{
       height:378px;
+      background-color: #FBFBFB;
+      padding-top: 112px;
+      .left{
+        h1{
+          font-weight: 100;
+        }
+      }
+      .right{
+        .brand-list{
+          width:713px;
+          height: 154px;
+          background-image: url('../images/page/index/brand-list-2x.png');
+          background-size: cover;
+        }
+      }
+
     }
   }
 }

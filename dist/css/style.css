@@ -158,7 +158,7 @@ body.index .level4 .bottom .icon-works {
   float: left;
   width: 38px;
   height: 35px;
-  background-image: url("../images/page/index/icon-moreworks.png");
+  background-image: url("../images/page/index/icon/icon-moreworks.png");
   background-size: cover;
 }
 body.index .level4 .bottom a {
@@ -181,11 +181,40 @@ body.index .level4 .bottom a.right {
 body.index .level5 {
   height: 355px;
 }
-body.index .level5 .inner h1 {
+body.index .level5 .item {
+  height: 355px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+body.index .level5 .item .inner {
+  padding-top: 138px;
+  padding-bottom: 137px;
+}
+body.index .level5 .item .inner:before, body.index .level5 .item .inner:after {
+  content: " ";
+  display: table;
+}
+body.index .level5 .item .inner:after {
+  clear: both;
+}
+body.index .level5 .item .inner .left {
+  background-size: cover;
+  float: left;
+  width: 58.5px;
+  height: 54.5px;
+}
+body.index .level5 .item .inner .right {
+  float: left;
+}
+body.index .level5 .item .inner .right .title {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 100;
   text-align: center;
 }
 body.index .level6 {
+  padding-top: 60px;
+  padding-bottom: 100px;
   max-width: 1920px;
   margin: auto;
 }
@@ -197,8 +226,19 @@ body.index .level6:after {
   clear: both;
 }
 body.index .level7 {
-  height: 640px;
+  padding-bottom: 100px;
 }
 body.index .level8 {
   height: 378px;
+  background-color: #FBFBFB;
+  padding-top: 112px;
+}
+body.index .level8 .left h1 {
+  font-weight: 100;
+}
+body.index .level8 .right .brand-list {
+  width: 713px;
+  height: 154px;
+  background-image: url("../images/page/index/brand-list-2x.png");
+  background-size: cover;
 }
